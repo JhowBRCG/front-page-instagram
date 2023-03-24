@@ -1,0 +1,21 @@
+.main-title {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  background: linear-gradient(270deg, #f3c4bf 50%, #ab2af8 95.55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.wrapper-title {
+  max-width: 600px;
+  margin-right: 92px;
+}
+
+@media (max-width: 900px) {
+  .wrapper-title {
+    margin: 0;
+  }
+}

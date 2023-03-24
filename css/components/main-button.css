@@ -1,0 +1,26 @@
+.main-button {
+  padding: 25px 15px;
+  background: linear-gradient(90deg, #535aca 3.87%, #ff0000 143.81%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffb24e;
+}
+
+.main-button:hover {
+  outline: 3px solid #ffb24e;
+}
+
+.wrapper-main-button {
+  display: flex;
+  gap: 17px;
+  justify-content: center;
+  margin-top: 43px;
+  transform: translateX(-125px);
+}
+
+@media (max-width: 900px) {
+  .wrapper-main-button {
+    transform: none;
+  }
+}

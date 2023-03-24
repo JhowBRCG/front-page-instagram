@@ -1,0 +1,33 @@
+.main-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 314px;
+  height: 288px;
+  border: 10px solid #ff4356;
+  background-color: #fff;
+  padding: 50px 0px;
+  gap: 25px;
+  transition: 100ms;
+}
+
+.main-card:hover {
+  transform: scale(1.09);
+  box-shadow: 0 0 25px rgb(255, 255, 255);
+}
+
+.text {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ff4356;
+}
+
+.wrapper-card {
+  display: flex;
+  justify-content: center;
+  gap: 83px;
+  margin-top: 135px;
+  flex-wrap: wrap;
+}

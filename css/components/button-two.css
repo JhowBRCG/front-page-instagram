@@ -1,0 +1,30 @@
+.button-two {
+  padding: 12px 25px;
+  background: #ffffff;
+  border: 5px solid #ff4356;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ff4356;
+}
+
+.button-two:hover {
+  border: 5px solid white;
+  background: #ff4356;
+  color: white;
+}
+
+.wrapper-button-two {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 250px;
+}
+
+@media (max-width: 900px) {
+  .wrapper-button-two {
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+}
